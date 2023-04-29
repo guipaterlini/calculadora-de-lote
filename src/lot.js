@@ -6,7 +6,7 @@ var l;
 var p;
 var calculoArea = function (l, p) { return l * p; };
 // Calculo do preco = area * valor do m2
-var calculoPrecoM2 = function (calculoArea, valorM2) {
+var calculoPrecoM2 = function (calculoArea) {
     return calculoArea * valorM2;
 };
 // Pegar dados do input e atualizar o valor

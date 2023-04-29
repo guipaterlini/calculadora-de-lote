@@ -1,1 +1,1 @@
-import "./lot.ts";
+import "./lot";
