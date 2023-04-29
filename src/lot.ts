@@ -38,7 +38,3 @@ form.addEventListener("submit", (element) => {
   const valorElement = document.querySelector("#valor") as HTMLParagraphElement;
   valorElement.innerText = preco;
 });
-
-const area = calculoArea(2, 10);
-
-console.log(calculoPrecoM2(area));
