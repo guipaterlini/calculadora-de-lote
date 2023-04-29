@@ -2,15 +2,15 @@
 const valorM2: number = 1000;
 
 // Calculo area em m2 = largura * profundidade
-let l: number;
-let p: number;
-
-const calculoArea = (l: number, p: number): number => l * p;
+function calculoArea(l: number, p: number): number {
+  return l * p;
+}
 
 // Calculo do preco = area * valor do m2
-const calculoPrecoM2 = (calculoArea: number): number =>
-  calculoArea * valorM2;
+function calculoPrecoM2(area: number): number {
+  return area * valorM2;
+}
 
 // Pegar dados do input e atualizar o valor
 
-console.log(calculoArea(1, 10));
+console.log(calculoPrecoM2(1));

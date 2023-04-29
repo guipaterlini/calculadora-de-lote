@@ -2,12 +2,12 @@
 // valor do m2
 var valorM2 = 1000;
 // Calculo area em m2 = largura * profundidade
-var l;
-var p;
-var calculoArea = function (l, p) { return l * p; };
+function calculoArea(l, p) {
+    return l * p;
+}
 // Calculo do preco = area * valor do m2
-var calculoPrecoM2 = function (calculoArea) {
+function calculoPrecoM2(calculoArea) {
     return calculoArea * valorM2;
-};
+}
 // Pegar dados do input e atualizar o valor
-console.log(calculoArea(1, 10));
+console.log(calculoPrecoM2(1));
